@@ -47,7 +47,7 @@ app.get("/sync", async (req, res) => {
   try {
     await new Promise((resolve) => {
       const unsubscribe = Sdk.subscribeToPtp(
-        { masterUrl: "https://ptp.peaq.network" },
+        { masterUrl: "https://ptp.peaq.xyz" },
         ({ synchronizedTime }) => {
           baseTime = synchronizedTime;
           lastSyncTime = process.hrtime.bigint();

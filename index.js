@@ -1,6 +1,6 @@
 import { Sdk } from "@peaq-network/sdk";
 
-const MASTER_URL = "https://ptp.peaq.network";
+const MASTER_URL = "https://ptp.peaq.xyz";
 
 // Subscribe to PTP updates
 const unsubscribe = Sdk.subscribeToPtp(
